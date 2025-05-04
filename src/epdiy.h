@@ -2,6 +2,8 @@
  * @file epdiy.h
  * A driver library for drawing to an EPD.
  */
+#ifndef EPDIY_H
+#define EPDIY_H
 #include "epd_display.h"
 #ifdef __cplusplus
 extern "C" {
@@ -602,4 +604,6 @@ void epd_set_lcd_pixel_clock_MHz(int frequency);
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
